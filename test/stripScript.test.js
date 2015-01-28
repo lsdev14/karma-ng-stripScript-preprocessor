@@ -16,7 +16,7 @@ describe('stripScript',function() {
         var htmlStripScript='';
 
         before(function(done) {
-            compileFn(HTML_SNIPPET,function(result) {
+            compileFn(HTML_SNIPPET,null,function(result) {
                 htmlStripScript=result;
                 done();
             });
