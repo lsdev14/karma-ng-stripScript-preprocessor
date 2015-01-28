@@ -33,7 +33,7 @@ module.exports = function(config) {
 ###You can use another preprocessors together with ng-stripScript
 
 ```bash
-npm install karma-ng-ng-i18n-preprocessor --save-dev
+npm install karma-ng-i18n-preprocessor --save-dev
 npm install karma-ng-jade2js-preprocessor --save-dev
 ```
 
