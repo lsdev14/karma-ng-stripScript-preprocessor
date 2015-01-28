@@ -1,7 +1,14 @@
 {
   "name": "karma-ng-stripScript-preprocessor",
   "version": "0.0.1",
-  "author" : "Command Alkon",
-  "dependencies" : {
+  "author": "Command Alkon",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/stripScript.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.1.0"
   }
 }
