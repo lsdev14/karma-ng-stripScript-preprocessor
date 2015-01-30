@@ -7,7 +7,7 @@
 
 ## Installation
 
-You can simple do it by:
+Installation is simple using the following:
 ```bash
 npm install karma-ng-stripScript-preprocessor --save-dev
 ```
@@ -30,7 +30,7 @@ module.exports = function(config) {
 };
 ```
 
-###You can use another preprocessors together with ng-stripScript
+###You can use other preprocessors together with ng-stripScript
 
 ```bash
 npm install karma-ng-i18n-preprocessor --save-dev
