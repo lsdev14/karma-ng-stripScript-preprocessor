@@ -1,5 +1,5 @@
 {
-    "name": "karma-ng-stripScript-preprocessor",
+    "name": "karma-ng-stripscript-preprocessor",
     "version": "0.0.1",
     "description": "A Karma plugin. Strip script tag from HTML files to AngularJS templates.",
     "author" : "Leandro de Souza <net.leandro@gmail.com>",
