@@ -29,19 +29,20 @@ module.exports = function(config) {
   });
 };
 ```
-##Example
-#####Before
+
+## Example
+##### Before
 ```js
 <script id="test" type="text/ng-template"><div id="test" data-ng-show="content"></div></script>
 ```
 
-#####After
+##### After
 ```html
 <div id="test" data-ng-show="content"></div>
 ```
 
 
-###You can use other preprocessors together with ng-stripScript
+## You can use other preprocessors together with ng-stripScript
 
 ```bash
 npm install karma-ng-i18n-preprocessor --save-dev
