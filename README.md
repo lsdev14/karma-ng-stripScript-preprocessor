@@ -9,7 +9,7 @@
 
 Installation is simple using the following:
 ```bash
-npm install karma-ng-stripScript-preprocessor --save-dev
+npm install karma-ng-stripscript-preprocessor --save-dev
 ```
 
 ## Configuration
@@ -29,6 +29,17 @@ module.exports = function(config) {
   });
 };
 ```
+
+#####Before
+```js
+<script id="test" type="text/ng-template"><div id="test" data-ng-show="content"></div></script>
+```
+
+#####After
+```html
+<div id="test" data-ng-show="content"></div>
+```
+
 
 ###You can use other preprocessors together with ng-stripScript
 
