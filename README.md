@@ -29,7 +29,7 @@ module.exports = function(config) {
   });
 };
 ```
-
+##Example
 #####Before
 ```js
 <script id="test" type="text/ng-template"><div id="test" data-ng-show="content"></div></script>
