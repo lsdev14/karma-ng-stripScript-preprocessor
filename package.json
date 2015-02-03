@@ -1,13 +1,26 @@
 {
     "name": "karma-ng-stripscript-preprocessor",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A Karma plugin. Strip script tag from HTML files to AngularJS templates.",
-    "author" : "Leandro de Souza <net.leandro@gmail.com>",
+    "author": "Leandro de Souza <net.leandro@gmail.com>",
     "license": "MIT",
     "homepage": "https://github.com/lsdev14/karma-ng-stripScript-preprocessor",
     "main": "lib/index.js",
     "scripts": {
         "test": "mocha test/stripScript.test.js"
+    },
+    "keywords": [
+        "karma-plugin",
+        "karma-preprocessor",
+        "angularjs",
+        "angular",
+        "html2js",
+        "jade2js",
+        "jade"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lsdev14/karma-ng-stripScript-preprocessor"
     },
     "dependencies": { },
     "devDependencies": {
